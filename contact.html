@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Camera World</title>
+    <link rel="stylesheet" href="contact.css">
+    <!-- Font Awesome for hamburger icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" id="hamburger-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#products">Products</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a href="contact.html" class="active" target="_blank">Contact</a></li>
+                <li><a href="https://www.justcanon.in/collections/digital-camera" target="_blank" class="btn">Shop Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="https://cdn.pixabay.com/video/2024/11/01/239444_tiny.mp4" type="video/mp4">
+            
+        </video>
+    </div>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <!-- Left Column - Contact Info -->
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <ul class="contact-details">
+                    <li>
+                        <strong>Email:</strong> 
+                        <a href="mailto:info@cameraworld.com">info@cameraworld.com</a>
+                    </li>
+                    <li>
+                        <strong>Phone:</strong> 
+                        <a href="tel:+917898168567">+91 7898168567</a>
+                    </li>
+                    <li>
+                        <strong>Address:</strong> 
+                        10 Camera Street Anantpur, Rewa, Madhya Pradesh
+                    </li>
+                </ul>
+                
+                <!-- Social Media Links -->
+
+                <div class="social-media">
+                    <a href="https://github.com/999-sachin" target="_blank" aria-label="Github">
+                        <img src="icon2.png" alt="Instagram">
+                    </a>
+
+                    <a href="https://surl.li/kzgewr" target="_blank" aria-label="LinkedIn">
+                        <img src="icon1.png" alt="LinkedIn">
+                    </a>
+                       
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                        <img src="icon5.avif" alt="Twitter">
+                    </a>
+
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <img src="icon4.png" alt="Facebook">
+                        </a>
+
+                </div>
+            </div>
+
+            <!-- Right Column - Contact Form -->
+            <div class="contact-form">
+                <h3>Send Us 
+                     Message</h3>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Google Map -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2586.729684243875!2d81.2986530654964!3d24.54372789919209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39845a322abfbd27%3A0xec3bf2007ba7dacc!2sRamagovind%20Palace%2C%20Heera%20Lal%20Colony%2C%20Hari%20Bhushan%20Nagar%2C%20Rewa%2C%20Madhya%20Pradesh%20486001!5e0!3m2!1sen!2sin!4v1741320482272!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" title="Camera World Location"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Camera World | Email: <a href="mailto:info@cameraworld.com">info@cameraworld.com</a> | Phone: <a href="tel:+917898168567">+91 7898168567</a></p>
+    </footer>
+
+    <script>
+        // Hamburger Menu Toggle
+        document.getElementById('hamburger-icon').addEventListener('click', function() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

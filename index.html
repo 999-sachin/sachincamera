@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capture the Moment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&family=Libre+Baskerville:wght@400;700&family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Add AOS for animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome for hamburger icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+
+    
+    <!-- Optional Preloader -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="https://cdn.pixabay.com/video/2024/11/01/239444_tiny.mp4" type="video/mp4">
+          </video>
+
+        <!-- Navigation Bar -->
+        <!-- -->
+
+        <nav>
+            <div class="nav-container">
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" id="hamburger-icon">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                    <li><a href="https://www.justcanon.in/collections/digital-camera" target="_blank" class="btn">Shop Now</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <div class="words">
+                    <span class="letter">C</span>
+                    <span class="letter">a</span>
+                    <span class="letter">p</span>
+                    <span class="letter">t</span>
+                    <span class="letter">u</span>
+                    <span class="letter">r</span>
+                    <span class="letter">e</span>
+                    &nbsp;
+                    <span class="letter">E</span>
+                    <span class="letter">v</span>
+                    <span class="letter">e</span>
+                    <span class="letter">r</span>
+                    <span class="letter">y</span>
+                     &nbsp;
+                    <span class="letter">M</span>
+                    <span class="letter">o</span>
+                    <span class="letter">m</span>
+                    <span class="letter">e</span>
+                    <span class="letter">n</span>
+                    <span class="letter">t</span>
+                </div>
+                <p>Discover the best cameras for your photography journey</p>
+                <a href="#products" class="btn">Explore Now</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Features Section -->
+    <section class="features" id="products">
+        <h2 data-aos="zoom-in" data-aos-duration="800">Why Choose Us?</h2>
+        <div class="feature-grid">
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPZyU-ql5Suh5Rf-wBJoKPqXMLmmelXIJUAw&s" alt="High-quality Nikon camera">
+                <a href="https://www.nikonusa.com/"><h3>High quality</h3></a>
+                <p>Top-tier cameras with stunning resolution and clarity.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZpn9QASmFcHd3en0yQd5RDzYtJ-Ynb-spBQ&s" alt="Affordable Nikon camera">
+                <a href="https://www.amazon.in/nikon-camera-dslr-low-price/s?k=nikon+camera+dslr+low+price"><h3>Affordable Prices</h3></a>
+                <p>Get the best value for your money with our deals.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_tNbjSeFB15L4brr4y-aldxt0ZZ1vlnUQ6g&s" alt="Fast shipping Nikon camera">
+                <a href="https://www.nikon.co.in/"><h3>Fast Shipping</h3></a>
+                <p>Quick delivery to your doorstep, anywhere in the world.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrWkiQSi2rDang2jAk4CEJe-UxUC5sOrNRYA&s" alt="Nikon camera with exclusive offers">
+                <a href="https://www.nikon.co.in/products/cameras/cameras-dslr"><h3>Exclusive Offers</h3></a>
+                <p>Get special discounts and early access to new arrivals.</p>
+            </div>
+            <div class="feature-card"data-aos="fade-up" data-aos-delay="300">
+                <img src="./nikon.jpg" alt="Nikon camera with customer satisfaction">
+                <a href="https://www.nikonusa.com/press-room/nikon-d-series-ranks-highest-i"><h3>Customer Satisfaction Guarantee</h3></a>
+                <p>Enjoy a hassle-free return policy and top-notch customer support.</p>
+            </div>
+
+            <div class="feature-card"data-aos="fade-up" data-aos-delay="300">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZq8BXgB-KL1k0sf2sSIVal6SrC3Q_KuZpNg&s" alt="Nikon camera with latest technology">
+               <a href="https://www.nikon.co.in/products/cameras/cameras-new-releases"> <h3>Latest Technology</h3></a>
+                <p>We offer the newest models with cutting-edge features.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHpq4NDBSNEl9gqM3z9MFbwlsMSHo_sjJ8bg&s" alt="Nikon camera with expert advice">
+               <a href="https://www.nikon.co.in/nikon-professional-services"> <h3>Experts Advise & Support</h3></a>
+                <p>Our team of photography experts is always ready to help you choose the perfect camera for your needs.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEhNRA04-hjTTZOzjd8ddXcSr99kXetpwsRQ&s" alt="Nikon camera from wide range of products">
+                <a href="https://www.nikonusa.com/"><h3>Wide Range of Products</h3></a>
+                <p>From beginner-friendly cameras to professional DSLRs, we have something for everyone.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://media.istockphoto.com/id/185278433/photo/black-digital-slr-camera-in-a-white-background.jpg?s=612x612&w=0&k=20&c=OOCbhvOF0W-eVhhrm-TxbgLfbKhFfs4Lprjd7hiQBNU=" alt="Nikon camera with user reviews">
+               <a href="https://www.rtings.com/camera/reviews/nikon"> <h3>User Reviews & Ratings</h3></a>
+                <p>Check real customer reviews and ratings before making your decision.</p>
+            </div>
+
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3acvUr99nwJcMpuP-n91yGhHwqeA1J33hQ&s" alt="Nikon camera with warranty services">
+                <a href="https://www.nikon.co.in/software-apps/nx-studio"><h3>Global Reach</h3></a>
+                <p>Whether it's a local event or an international project, we are ready to capture stories worldwide.</p>
+            </div>
+            
+
+            
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpqbCt8jVUt_Fby45E3tRRrycHKyatff1MUQ&s">
+                <a href="https://www.nikon.co.in/articles/capture-the-thrill-speed-aviation-racing-with-the-nikon-z9"><h3>Fast Turnaround Time</h3></a>
+                <p>We value your time and ensure quick-delivery without compro-mising on quality.</p>
+            </div>
+
+
+            
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHpq4NDBSNEl9gqM3z9MFbwlsMSHo_sjJ8bg&s">
+               <a href="https://www.nikon.co.in/warranty"> <h3>Warranty & After-Sales Services</h3></a>
+                <p>Enjoy manufacturer warranties and reliable after-sales support for a worry-free experience.</p>
+            </div>
+
+        </div>
+    
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Camera World | Mail: <a href="mailto:info@cameraworld.com">info@cameraworld.com</a> | Phone: <a href="tel:+917898168567">+91 7898168567</a></p>
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        // Preloader
+        window.addEventListener('load', () => {
+            document.getElementById('preloader').style.display = 'none';
+        });
+
+        // Hamburger Menu Toggle
+        document.getElementById('hamburger-icon').addEventListener('click', function() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
